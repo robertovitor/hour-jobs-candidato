@@ -103,7 +103,7 @@ const Home = ({ navigation }) => {
               marginBottom: 20,
             }}
           >
-            <Text style={styles.title}>Olá, Roberto!</Text>
+            <Text style={styles.title}>Olá, Eliane!</Text>
             <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
               <Image style={styles.userImage} source={ProfilePhoto} />
             </TouchableOpacity>
