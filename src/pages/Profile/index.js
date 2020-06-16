@@ -6,7 +6,7 @@ import { useAuth } from '../../contexts/auth';
 import NavBar from '../../components/NavBar';
 import Button from '../../components/Button';
 import styles from './styles';
-import ProfilePhoto from '../../../assets/img/profile.jpeg';
+import ProfilePhoto from 'https://pbs.twimg.com/profile_images/789994309496045568/P2sYuuyg_400x400.jpg';
 
 const Profile = ({ navigation }) => {
   const { signOut } = useAuth();
