@@ -89,7 +89,7 @@ const JobPage = ({ route, navigation }) => {
 
           <Button
             label="Candidatar-se"
-            onPress={(window.alert('<b>Parabéns! Candidatura Confirmada!</b> \n\n Sua candidatura já foi enviada ao empregador. Assim que tivemos uma atualização de status, avisaremos por aqui no app ou whatsapp.') => {}}
+            onPress={(window.alert('<b>Parabéns! Candidatura Confirmada!</b> \n\n Sua candidatura já foi enviada ao empregador. Assim que tivemos uma atualização de status, avisaremos por aqui no app ou whatsapp.')) => {}}
             style={{ alignSelf: 'center' }}
           />
         </ScrollView>
