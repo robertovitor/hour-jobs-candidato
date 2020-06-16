@@ -12,8 +12,8 @@ const Profile = ({ navigation }) => {
   const { signOut } = useAuth();
 
   const usuario = {
-    nome: 'Roberto Victor',
-    cargo: 'Auxiliar de Escritório',
+    nome: 'Eliane Lopes',
+    cargo: 'Vendedora',
   };
 
   return (
